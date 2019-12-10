@@ -1,0 +1,103 @@
+[
+  {
+    "description": "    In order to perform successful Login\n    As a user\n    I want to enter correct username and password",
+    "keyword": "Feature",
+    "name": "Login To Local",
+    "line": 1,
+    "id": "login-to-local",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login-to-local;in-order-to-access-portal-user-must-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "In order to access portal user must login",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to \"https://portal.mbedcloud.com/\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user click on login with account.mbed.com",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user enter \"username\" and \"password\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user click login button",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:32"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6091000000,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31m{}\u001b[39m\n    at World.<anonymous> (/Users/legzy27/armstest/features/stepDefinitions/stepDefinition.js:37:67)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "78.0.3904.108"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

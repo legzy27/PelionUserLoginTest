@@ -5,9 +5,11 @@ Set Protactor Cucumber JS
 * Install Java Development Kit.
 * Install Node.js (latest version).
 * Install Protractor using the below command:
-
-* npm install -g protractor
+  
+*
 * cd in /Users/legzy27/armstest
+* npm install
+* npm install -g protractor
 * Type webdriver-manager update and press enter
 * Type webdriver-manager start and press enter
 
@@ -16,7 +18,7 @@ Set Protactor Cucumber JS
 * npm install expect
 
 * Run the test
-* Type protractor protractor.conf.js     
+* Type protractor protractor.conf.js and press enter    
 
 
 
